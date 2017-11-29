@@ -1,5 +1,5 @@
 # UIScrollView Paging Autolayout & Storyboard
-This sample contains the Auto Layout implementation for UIScrollView with paging enabled. To simplify layout’s complexity for views inside content view this sample uses [Stack View](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/AutolayoutPG/LayoutUsingStackViews.html)
+This sample contains the Auto Layout implementation for UIScrollView with paging enabled. To simplify layout’s complexity for views inside content view this sample uses [Stack View](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/AutolayoutPG/LayoutUsingStackViews.html).
 
 Introduction
 ------------
@@ -28,8 +28,8 @@ Screenshots
 -----------
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/23726864/32780552-fe55f04e-c941-11e7-9492-8d023758e79c.png" 
-         alt="A screenshot illustratrating the UI of the app" width="360" />
+    <img src="https://user-images.githubusercontent.com/23726864/33372793-86268c4a-d4ff-11e7-9bc0-c7159cf6aa4a.gif" 
+         alt="A gif illustratrating the way app works" width="324" />
 </p>
 
 Getting started
