@@ -4,7 +4,7 @@ This sample contains the Auto Layout implementation for UIScrollView with paging
 Introduction
 ------------
 
-As it's stated in [Working with Scroll Views](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithScrollViews.html#//apple_ref/doc/uid/TP40010853-CH24-SW1) you can setup ScrollView and its content in Interface Builder by using Auto Layout.
+As it's stated in [Working with Scroll Views](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithScrollViews.html#//apple_ref/doc/uid/TP40010853-CH24-SW1), you can setup ScrollView and its content in Interface Builder by using Auto Layout.
 
 Steps to implement are:
 
@@ -16,7 +16,7 @@ Steps to implement are:
 6. (Optional) To disable vertical scrolling, set the content view’s height equal to the scroll view’s height. The content view now fills the scroll view horizontally.
 7. Lay out the scroll view’s content inside the content view. Use constraints to position the content inside the content view as normal.
 
-Using constraints to position the content inside the content view might bring additional complexity to your layout. Setting stack view as a content view resolves that issue. The stack view grows longer as the user adds more entries. Scrolling is automatically enabled as soon as there is too much content to fit on the screen.
+Using constraints to position the content inside the content view might bring additional complexity to your layout. With stack view set as a content view each entry inside it will have just one single constraint instead of 5+. The stack view grows longer as the user adds more entries. Scrolling is automatically enabled as soon as there is too much content to fit on the screen.
 
 Pre-requisites
 --------------
